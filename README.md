@@ -11,7 +11,7 @@ Optimized for Claude Code, but vendor-agnostic and portable to any model and har
 ```text
 legal-workspace-starter/
 
-├── AGENTS.md                  ← the map: who you are, what lives where, how to work
+├── AGENTS.md                  ← the index: identity line, folder map, session rules
 ├── CLAUDE.md                  ← points Claude to the shared agent instructions
 ├── knowledge/                 ← lasting context on company, legal positions, preferences
 │   ├── counsel-brief.md       ← how you'd brief new counsel on your work
@@ -24,7 +24,7 @@ legal-workspace-starter/
 │       └── docs/              ← work products for the matter
 ├── desk/                      ← dropped files, quick asks, and one-off work products
 └── .claude/skills/            ← recurring tasks (legal and non-legal)
-    ├── setup-workspace/       ← interviews you and fills the starter files
+    ├── setup-workspace/       ← runs an onboarding interview and fills the starter files
     └── file-it/               ← routes context and corrections to the right file; keeps this workspace compounding
 ```
 
@@ -60,4 +60,4 @@ This workspace is just a starting point. The design is carried by the routing (`
 
 ## Credits
 
-This idea and structure for this workspace is inspired by Adam Faik's [Claude Code PM Starter](https://github.com/adamfaik/claude-code-pm-starter).
+The idea and structure of this workspace are inspired by Adam Faik's [Claude Code PM Starter](https://github.com/adamfaik/claude-code-pm-starter).

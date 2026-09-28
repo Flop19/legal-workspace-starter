@@ -1,6 +1,6 @@
 ---
 name: setup-workspace
-description: Personalize this workspace. Interviews the user about their profile and company, its legal setup, and their preferences, then fills the identity line in AGENTS.md and the forms in knowledge/counsel-brief.md and knowledge/preferences.md. Use on first launch, or whenever the user wants to re-run onboarding.
+description: Onboards a new user. Interviews them about their profile and company, its legal setup, and their preferences, then fills the identity line in AGENTS.md and the forms in knowledge/counsel-brief.md and knowledge/preferences.md. Run at first launch; re-run any time to redo onboarding.
 ---
 # Set up workspace
 
@@ -54,7 +54,7 @@ with the interview.
 
 ## Finish
 
-Show a short summary of every file you touched, and say which questions are still
+List each file you changed, one line each, and say which questions are still
 unanswered.
 
 Then explain briefly how the workspace works — this is the first time they'll see
@@ -66,7 +66,7 @@ it:
 - `desk/` is everything else: a dropped file, a one-off task.
 - `knowledge/` is the workspace's durable memory. It grows out of the work: when
   something gets settled or turns out wrong, `/file-it` records it — dated, with
-  what it rests on — so it never has to be said twice.
+  what it rests on — so it doesn't need repeating.
 
-Then suggest one concrete next move — open the first real matter, whatever is
+Then propose one concrete first step — open the first real matter, whatever is
 actually on their plate today. Starting it is as simple as saying "new matter …".

@@ -1,7 +1,7 @@
 # Brief — [Matter name]
 
-<!-- Keep the brief concise. The brief is what a session reads to understand the
-matter AND to know where things stand. Keep the Current state section at the top
+<!-- Keep the brief concise. A session reads it first, for the background and for
+where things stand. Keep the Current state section at the top
 current — it's the first thing read when picking the matter back up. -->
 
 **Opened:** [YYYY-MM-DD]
